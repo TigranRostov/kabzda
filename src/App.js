@@ -2,8 +2,8 @@ import React from 'react';
 // import logo from './logo.svg';
 import './App.css';
 import Header from './components/Header';
-import Nav from './components/Nav';
-import Nav from './components/Profile';
+import Navbar from './components/Navbar';
+import Profile from './components/Profile';
 // import Technologies from './Technologies.js';
 // import Footer from './Footer.js';
 
@@ -11,7 +11,7 @@ const App = () => {
   return (
     <div className='app-wrapper' >
      <Header/>
-     <Nav/>
+     <Navbar/>
      <Profile/>
 
     </div>
